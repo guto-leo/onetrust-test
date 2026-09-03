@@ -6,12 +6,54 @@
 
     <title>Teste OneTrust Trust Center</title>
 
+    <style>
+        :root {
+            font-size: 14px;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
+
+        trust-center {
+            display: block;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        @media (max-width: 767px) {
+            body {
+                padding: 16px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    </style>
+
     <script>
         var OneTrust = {
             dataSubjectParams: {
                 id: "12345678-9",
                 isAnonymous: false,
-                token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3OC05In0.kJ0IPj8aJ8Rry7TkNX_z5hdhZPMHo6-5aFbZthMDxCkHBhwmRwgex0Dt4AeUqXHIjlD5GptoBRWO0MmbrLfgTWnf51GAehZfUViAmqwKEB-hZDvrQgo1cEJtUrhLnDgvSgfWFNad7Rozldnm-QKm6lSFf-oVLEsKVER6Ka5-IMGCr7yfk8jyBFhz3-uM8-aPRQOVmUiT1esv7Ji4OSynIm7BGUzlenvI-afYpgFzGuNYDgfPD8Jui53uS3B1aMt_v9_m_s7_r-2E6OaigvyHKKmd4wgKdQ38iy2JSBSnvDQmS01S5i_SkexOoaHhKpGqxy8oVtzORuF87s7E5Loulw"
+                token: "SEU_JWT"
             }
         };
     </script>
