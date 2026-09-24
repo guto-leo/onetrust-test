@@ -1,83 +1,80 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Trust Center OneTrust WebForm Embedded</title>
 
     <style>
-    html,
-    :root {
-        font-size: 12px !important;
-    }
+      html,
+      :root {
+          font-size: 12px !important;
+      }
 
-    body {
-        margin: 0;
-        padding: 24px;
-        font-family: Arial, sans-serif;
-    }
+      body {
+          margin: 0;
+          padding: 24px;
+          font-family: Arial, sans-serif;
+      }
 
-    h1 {
-        font-size: 24px;
-        margin-bottom: 8px;
-    }
+      h1 {
+          font-size: 24px;
+          margin-bottom: 8px;
+      }
 
-    p {
-        font-size: 14px;
-        margin-bottom: 24px;
-    }
+      p {
+          font-size: 14px;
+          margin-bottom: 24px;
+      }
 
-    trust-center {
-        display: block;
-        width: 100%;
-        max-width: 100%;
-    }
+      trust-center {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+      }
 
-    @media (max-width: 767px) {
-        body {
-            padding: 16px;
-        }
+      @media (max-width: 767px) {
+          body {
+              padding: 16px;
+          }
 
-        h1 {
-            font-size: 20px;
-        }
+          h1 {
+              font-size: 20px;
+          }
 
-        p {
-            font-size: 13px;
-        }
-    }
-</style>
-
+          p {
+              font-size: 13px;
+          }
+      }
+    </style>
 
     <script>
-        var OneTrust = {
-            dataSubjectParams: {
-                id: "21495263-7",
-                isAnonymous: false,
-                token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMTQ5NTI2My03In0.EIly3M761qZTFQAIDvfVQKCPIQTvO9_2lFZC2Xz2yG-8i3KfDkvgN7gj8oWcyyqLUmA-Oh_y9X0oLzmoVwcEDweuXE51pXf_8kkURZjtuldLkPqwjgshIbnPa8wNYqVS7TpKKnWDlwiKka4miwOVtuqJ5WH1YTdG4ZzY67aHd34VseSx5CBPqfWa1HFPFwZQS4-m_dcLBnK6P3UzZdym4YOIFxNQiiHrwV9r7AMR_4xG9ZG979wDfXupWrfmvVClSanL5_le0OFpYsrtA3c5RYqxz4CsKgsbuF5R1twTHq_yFyN2P8O9NH1vZJpQWdYumWMMWH4EkPEDamOtgAWZ2w"
-            }
-        };
+      var OneTrust = {
+          dataSubjectParams: {
+              id: "21495263-7",
+              isAnonymous: false,
+              token: "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMTQ5NTI2My03In0.EIly3M761qZTFQAIDvfVQKCPIQTvO9_2lFZC2Xz2yG-8i3KfDkvgN7gj8oWcyyqLUmA-Oh_y9X0oLzmoVwcEDweuXE51pXf_8kkURZjtuldLkPqwjgshIbnPa8wNYqVS7TpKKnWDlwiKka4miwOVtuqJ5WH1YTdG4ZzY67aHd34VseSx5CBPqfWa1HFPFwZQS4-m_dcLBnK6P3UzZdym4YOIFxNQiiHrwV9r7AMR_4xG9ZG979wDfXupWrfmvVClSanL5_le0OFpYsrtA3c5RYqxz4CsKgsbuF5R1twTHq_yFyN2P8O9NH1vZJpQWdYumWMMWH4EkPEDamOtgAWZ2w"
+          }
+      };
     </script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <h1>Trust Center OneTrust WebForm Embedded</h1>
 
     <p>Data Subject: Test 21495263-7 24/09/2026</p>
 
     <trust-center
-        tenantId="aea7fda5-e906-40d5-a69a-7994c5392482"
-        portalId="3fc363c2-ddb2-4800-ba06-8bace0ea993e"
-        blobUrl="https://uat-bupa-cl-privacy.my.onetrust.com"
-        workerUrl="https://portal-api.onetrust.com"
+      tenantId="aea7fda5-e906-40d5-a69a-7994c5392482"
+      portalId="3fc363c2-ddb2-4800-ba06-8bace0ea993e"
+      blobUrl="https://uat-bupa-cl-privacy.my.onetrust.com"
+      workerUrl="https://portal-api.onetrust.com"
     ></trust-center>
 
     <script
-        src="https://uat-bupa-cl-privacy.my.onetrust.com/portal-trust-center/trust-center/scripts/portal-sdk.js"
-        type="text/javascript">
-    </script>
-
-</body>
+      src="https://uat-bupa-cl-privacy.my.onetrust.com/portal-trust-center/trust-center/scripts/portal-sdk.js"
+      type="text/javascript"
+    ></script>
+  </body>
 </html>
