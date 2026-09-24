@@ -7,46 +7,48 @@
     <title>Trust Center OneTrust WebForm Embedded</title>
 
     <style>
-        :root {
-            font-size: 8px;
-        }
+    html,
+    :root {
+        font-size: 12px !important;
+    }
 
+    body {
+        margin: 0;
+        padding: 24px;
+        font-family: Arial, sans-serif;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    trust-center {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    @media (max-width: 767px) {
         body {
-            margin: 0;
-            padding: 24px;
-            font-family: Arial, sans-serif;
+            padding: 16px;
         }
 
         h1 {
-            font-size: 24px;
-            margin-bottom: 8px;
+            font-size: 20px;
         }
 
         p {
-            font-size: 14px;
-            margin-bottom: 24px;
+            font-size: 13px;
         }
+    }
+</style>
 
-        trust-center {
-            display: block;
-            width: 100%;
-            max-width: 100%;
-        }
-
-        @media (max-width: 767px) {
-            body {
-                padding: 16px;
-            }
-
-            h1 {
-                font-size: 20px;
-            }
-
-            p {
-                font-size: 13px;
-            }
-        }
-    </style>
 
     <script>
         var OneTrust = {
